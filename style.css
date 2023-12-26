@@ -1,0 +1,43 @@
+html{
+    font-size: 16px;
+}
+
+body{
+    background-color: rgba(107, 241, 95, 0.635);
+    margin-left: 120px;
+    margin: 0;
+    font-family: sans-serif;
+    color: rgb(15, 15, 15);
+}
+
+.container{
+  width: 100%;
+  margin: 3.2rem auto 0 auto;
+}
+
+@media(min-width: 576px){
+  .container{
+    max-width: 540px;
+  }
+}
+
+@media(min-width: 768px){
+  .container{
+    max-width: 720px
+  }
+}
+
+header{
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+h1{
+  font-weight: 400;
+}
+
+#description{
+  font-weight: 200;
+  font-style: italic;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5)
+}
